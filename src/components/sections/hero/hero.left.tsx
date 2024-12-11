@@ -43,8 +43,8 @@ const HeroLeft = () => {
                 <SocialMedia
                     youtube={APP_DATA.YOUTUBE_URL}
                     facebook={APP_DATA.FACEBOOK_URL}
+                    instagram={APP_DATA.INSTAGRAM_URL}
                     tiktok={APP_DATA.TIKTOK_URL}
-                    udemy={APP_DATA.UDEMY_URL}
                 />
             </div>
             <div className="d-md-flex d-none gap-4">
