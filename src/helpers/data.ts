@@ -20,32 +20,16 @@ export const EXPERIENCES = [
             en: "Fullstack Developer"
         },
         company: {
-            vi: "Công ty ABCXYZ Ltd.",
-            en: "ABCXYZ Ltd."
+            vi: "MST Entertainment",
+            en: "MST Entertainment"
         },
         duration: {
-            vi: "Jan 2024 - Hiện tại",
-            en: "Jan 2024 - Present"
+            vi: "Tháng 7 / 2024 - Hiện tại",
+            en: "Jul 2024 - Present"
         }
     },
     {
         id: 2,
-        title: {
-            vi: "Lập Trình Viên",
-            en: "Fullstack Developer"
-        },
-
-        company: {
-            vi: "Công ty F (freelancer)",
-            en: "F (freelancer)"
-        },
-        duration: {
-            vi: "Tháng 6/2022 - Tháng 1/2024",
-            en: "Jun 2022 - Jan 2024"
-        }
-    },
-    {
-        id: 3,
         title: {
             vi: "Dự án tự làm",
             en: "Self Employed"
@@ -55,10 +39,26 @@ export const EXPERIENCES = [
             en: "Code and build something in everyday."
         },
         duration: {
-            vi: "Tháng 1/2020 - Hiện tại",
-            en: "Jan 2020 - Present"
+            vi: "Tháng 1 / 2022 - Hiện tại",
+            en: "Jan 2022 - Present"
         }
-    }
+    },
+    {
+        id: 3,
+        title: {
+            vi: "Lập Trình Viên",
+            en: "Fullstack Developer"
+        },
+
+        company: {
+            vi: "Đại học FPT",
+            en: "FPT University"
+        },
+        duration: {
+            vi: "Tháng 10 / 2021 - Hiện tại",
+            en: "Oct 2022 - Present"
+        }
+    },
 ]
 
 export const PROJECTS = [
@@ -122,15 +122,8 @@ export const SKILLS_DATA = [
     'Tailwind',
     'MongoDB',
     'MySQL',
-    'PostgreSQL',
     'Git',
-    'AWS',
     'Bootstrap',
-    'Docker',
-    'Go',
     'Figma',
-    'Firebase',
     'MaterialUI',
-    'Nginx',
-    'Strapi'
 ]
