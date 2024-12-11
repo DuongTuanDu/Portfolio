@@ -1,14 +1,14 @@
 import { Col, Row } from "react-bootstrap";
-import AnimationLottie from "../../share/animation-lottie";
-import codingJSON from '../../../assets/lottie/coding.json';
-import { DEVELOPMENT_LOTTIE } from "../../../assets/lottie/string/development";
-import { CONTACT_LOTTIE } from "../../../assets/lottie/string/contact";
+import AnimationLottie from "components/share/animation-lottie";
+import codingJSON from 'assets/lottie/coding.json';
+import { DEVELOPMENT_LOTTIE } from "assets/lottie/string/development";
+import { CONTACT_LOTTIE } from "assets/lottie/string/contact";
 
-import GlowCard from "../../share/glow-card";
+import GlowCard from "components/share/glow-card";
 import { FaGraduationCap } from "react-icons/fa6";
-import Divider from "../divider";
-import { APP_DATA } from "../../../helpers/data";
-import SocialMedia from "../social.media";
+import Divider from "components/sections/divider";
+import { APP_DATA } from "helpers/data";
+import SocialMedia from "components/sections/social.media";
 
 const About = () => {
     return (
@@ -18,11 +18,11 @@ const About = () => {
                     <h3 className="text-center mb-md-5 mb-2">Know Who <span className="brand-red">I'M</span> </h3>
                     <div>
                         <div>
-                            <p> Hi Everyone, I am HoiDanIT from Hanoi, VietNam.</p>
+                            <p> Hi Everyone, I am TuanDu from Hanoi, VietNam.</p>
 
-                            <p> I am currently employed as a a freelance dev (start-up).</p>
+                            <p> I am currently employed as a Fullstack developer.</p>
 
-                            <p> I have completed Bachelor's degree in Software Engineer at Hanoi University of Science and Technology (HUST).</p>
+                            <p> I have completed Bachelor's degree in Software Engineer at FPT University.</p>
                         </div>
                     </div>
                     <div>
@@ -66,7 +66,7 @@ const About = () => {
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>20xx-20xx</p>
+                                            <p>2021 - Hiện tại</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
@@ -74,7 +74,7 @@ const About = () => {
                                             </div>
                                             <div className="info">
                                                 <p className="title">Softwaren Engineer</p>
-                                                <p className="company">Hanoi University of Science and Technology (HUST)</p>
+                                                <p className="company">FPT University</p>
                                             </div>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ const About = () => {
                         youtube={APP_DATA.YOUTUBE_URL}
                         facebook={APP_DATA.FACEBOOK_URL}
                         tiktok={APP_DATA.TIKTOK_URL}
-                        udemy={APP_DATA.UDEMY_URL}
+                        instagram={APP_DATA.INSTAGRAM_URL}
                     />
                 </Col >
                 <Col md={6} xs={12} className="d-flex flex-column align-items-center justify-content-center">
