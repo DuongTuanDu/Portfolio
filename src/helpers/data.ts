@@ -1,6 +1,6 @@
 import topclick from 'assets/project/topclick.webp';
 import bookSeller from 'assets/project/bookSeller.jpeg';
-import profolio from 'assets/project/profolio.png';
+import profolio from 'assets/project/Profolio.png';
 import edunextSource from 'assets/project/edunextSource.png';
 import teelab from 'assets/project/Teelab.png';
 
