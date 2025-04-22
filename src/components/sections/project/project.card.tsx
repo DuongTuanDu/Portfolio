@@ -25,21 +25,24 @@ function ProjectCard(props: IProps) {
                         {props.description}
                     </Card.Text>
                     <div>
-                        <Button variant="primary" href={props.githubLink} target="_blank">
-                            <BsGithub /> &nbsp;
-                            GitHub
-                        </Button>
+                        {(props.title === "Teelab" || props.title === "Edunext Course" || props.title === "Book Store") &&
+                            <Button variant="primary" href={props.githubLink} target="_blank">
+                                <BsGithub /> &nbsp;
+                                GitHub
+                            </Button>
+                        }
 
-                        <Button
-                            variant="primary"
-                            href={props.demoLink}
-                            target="_blank"
-                            style={{ marginLeft: "10px" }}
-                        >
-                            <CgWebsite /> &nbsp;
-                            {"Demo"}
-                        </Button>
-
+                        {(props.title === "Topclick" || props.title === "Profolio") &&
+                            <Button
+                                variant="primary"
+                                href={props.demoLink}
+                                target="_blank"
+                                style={{ marginLeft: "10px" }}
+                            >
+                                <CgWebsite /> &nbsp;
+                                {"Demo"}
+                            </Button>
+                        }
                     </div>
                 </div>
             </Card.Body>
