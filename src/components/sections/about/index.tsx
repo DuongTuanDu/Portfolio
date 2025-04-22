@@ -30,9 +30,10 @@ const About = () => {
 
                         </p>
                         <ul>
-                            <li>Playing Games</li>
+                            <li>Playing Badminton</li>
                             <li>Writing Tech Blogs</li>
                             <li>Travelling</li>
+                            <li>Gym</li>
                         </ul>
                     </div>
                     <div>
