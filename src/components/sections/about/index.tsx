@@ -20,7 +20,7 @@ const About = () => {
                         <div>
                             <p> Hi Everyone, I am TuanDu from Hanoi, VietNam.</p>
 
-                            <p> I am currently employed as a Fullstack developer.</p>
+                            <p> I am currently employed as a Front-end developer.</p>
 
                             <p> I have completed Bachelor's degree in Software Engineer at FPT University.</p>
                         </div>

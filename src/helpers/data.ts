@@ -1,9 +1,8 @@
-import nestImg from 'assets/project/nestjs.png';
-import nextjsImg from 'assets/project/nextjs.jpeg';
-import reactNativeImg from 'assets/project/react-native.png';
-import reactUltimateImg from 'assets/project/react-ultimate.png';
-import springMvcImg from 'assets/project/spring-mvc.png';
-import springRestImg from 'assets/project/spring-rest.png';
+import topclick from 'assets/project/topclick.webp';
+import bookSeller from 'assets/project/bookSeller.jpeg';
+import profolio from 'assets/project/profolio.png';
+import edunextSource from 'assets/project/edunextSource.png';
+import teelab from 'assets/project/Teelab.png';
 
 export const APP_DATA = {
     YOUTUBE_URL: "https://www.youtube.com/@tuandu2504",
@@ -64,52 +63,44 @@ export const EXPERIENCES = [
 export const PROJECTS = [
     {
         id: 1,
-        imgPath: reactNativeImg,
-        title: "React Native Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-native-ultimate-phat-trien-ung-dung-mobile-66e7ab4578aaf477418cb538.html"
+        imgPath: topclick,
+        title: "Topclick",
+        description: "TopClick provides services to increase social network interaction, helping individuals and businesses develop a strong and sustainable online presence, supporting thousands of customers in building impressive images.",
+        githubLink: "#",
+        demoLink: "https://topclick.vn/"
     },
     {
         id: 2,
-        imgPath: springRestImg,
-        title: "Java Spring REST",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-rest-ultimate-for-beginners-6631cb577353ab6861b188f6.html"
+        imgPath: profolio,
+        title: "Profolio",
+        description: "Profolio is the premier platform for creators and professionals to showcase their work, connect with clients, and transform their skills into income.",
+        githubLink: "#",
+        demoLink: "https://profolio.1ai.one/en"
     },
     {
         id: 3,
-        imgPath: springMvcImg,
-        title: "Java Spring MVC",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/java-spring-mvc-ultimate-for-beginners-65ce0b770c05f4450fbd86ac.html"
+        imgPath: teelab,
+        title: "Teelab",
+        description: "Not only is fashion, Teelab is also a laboratory of youth - a place to research and produce an energy source called Youth. We always want to create a happy, dynamic and youthful experience.",
+        githubLink: "https://github.com/DuongTuanDu/FE_BeooTeelab",
+        demoLink: "#"
     },
     {
         id: 4,
-        imgPath: nextjsImg,
-        title: "React ProMax with Next.js",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-pro-max-voi-nextjs-lam-chu-toan-dien-reactjs-hien-dai-65198100e6bafa8caad417a6.html"
+        imgPath: edunextSource,
+        title: "Edunext Course",
+        description: "Student management website, providing courses and subjects for students, detailed management of each study slot.",
+        githubLink: "https://github.com/DuongTuanDu/EdunextApp_With_ReactJs",
+        demoLink: "#"
     },
     {
         id: 5,
-        imgPath: nestImg,
-        title: "Nest.js Basic",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/nestjs-voi-typescript-mongodb-sieu-de-64686ec6fb456bbb90663dd6.html"
+        imgPath: bookSeller,
+        title: "Book Store",
+        description: "Website selling books with a variety of types, bringing users good and useful books for life.",
+        githubLink: "https://github.com/DuongTuanDu/Book_Seller",
+        demoLink: "#"
     },
-    {
-        id: 6,
-        imgPath: reactUltimateImg,
-        title: "React Ultimate",
-        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-        githubLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html",
-        demoLink: "https://hoidanit.vn/khoa-hoc/react-ultimate-react-co-ban-tu-z-toi-a-640b50b96cc592d780aab976.html"
-    }
 ]
 
 export const SKILLS_DATA = [
