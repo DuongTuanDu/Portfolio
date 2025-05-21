@@ -23,7 +23,7 @@ export const EXPERIENCES = [
             en: "MST Entertainment"
         },
         duration: {
-            vi: "Tháng 7 / 2024 - Tháng 4 / 2025",
+            vi: "Tháng 7 / 2024 - Tháng 5 / 2025",
             en: "Jul 2024 - May 2025"
         }
     },
