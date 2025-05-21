@@ -24,7 +24,7 @@ export const EXPERIENCES = [
         },
         duration: {
             vi: "Tháng 7 / 2024 - Tháng 4 / 2025",
-            en: "Jul 2024 - Apr 2025"
+            en: "Jul 2024 - May 2025"
         }
     },
     {
