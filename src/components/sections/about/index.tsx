@@ -67,7 +67,7 @@ const About = () => {
                                 <div className="p-3 relative">
                                     <div className="experience-container">
                                         <div className="duration-text">
-                                            <p>2021 - Hiện tại</p>
+                                            <p>2021 - 2025</p>
                                         </div>
                                         <div className="details">
                                             <div className="icon">
