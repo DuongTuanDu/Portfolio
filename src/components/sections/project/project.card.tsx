@@ -15,7 +15,7 @@ interface IProps {
 function ProjectCard(props: IProps) {
     return (
         <Card className="project-card-view">
-            <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: 215 }} />
+            <Card.Img variant="top" src={props.imgPath} alt="card-img" style={{ maxHeight: 194, minHeight: 194 }} />
             <Card.Body className="d-flex flex-column">
                 <Card.Title>
                     {props.title}
@@ -25,19 +25,18 @@ function ProjectCard(props: IProps) {
                         {props.description}
                     </Card.Text>
                     <div>
-                        {(props.title === "Teelab" || props.title === "Edunext Course" || props.title === "Book Store") &&
+                        {(props.title === "Teelab" || props.title === "Edunext Course" || props.title === "Book Store" || props.title === "ClinSkin") &&
                             <Button variant="primary" href={props.githubLink} target="_blank">
                                 <BsGithub /> &nbsp;
                                 GitHub
                             </Button>
                         }
 
-                        {(props.title === "Topclick" || props.title === "Profolio") &&
+                        {(props.title === "Topclick" || props.title === "Profolio" || props.title === "TimeNest") &&
                             <Button
                                 variant="primary"
                                 href={props.demoLink}
                                 target="_blank"
-                                style={{ marginLeft: "10px" }}
                             >
                                 <CgWebsite /> &nbsp;
                                 {"Demo"}

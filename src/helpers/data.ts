@@ -4,6 +4,9 @@ import profolio from 'assets/project/Profolio.png';
 import edunextSource from 'assets/project/edunextSource.png';
 import teelab from 'assets/project/Teelab.png';
 
+const clinskin = "https://image.hsv-tech.io/1920x0/bbx/common/6cb4ca54-942a-4d80-8cd9-00c9c6b1805a.webp"
+const timenest = "https://res.cloudinary.com/dah1iwbdz/image/upload/v1751561077/Screenshot_2025-07-03_234305_hwz3of.png"
+
 export const APP_DATA = {
     YOUTUBE_URL: "https://www.youtube.com/@tuandu2504",
     TIKTOK_URL: "https://www.tiktok.com/@beoo_sea",
@@ -15,7 +18,22 @@ export const EXPERIENCES = [
     {
         id: 1,
         title: {
-            vi: "Lập Trình Viên",
+            vi: "Thực tập sinh Front-end",
+            en: "Intern Front-end Developer"
+        },
+        company: {
+            vi: "HBLAB JSC",
+            en: "HBLAB JSC"
+        },
+        duration: {
+            vi: "Tháng 4 / 2024 - Tháng 6 / 2024",
+            en: "April 2024 - June 2024"
+        }
+    },
+    {
+        id: 2,
+        title: {
+            vi: "Lập Trình Viên Front-end",
             en: "Front-end Developer"
         },
         company: {
@@ -23,12 +41,12 @@ export const EXPERIENCES = [
             en: "MST Entertainment"
         },
         duration: {
-            vi: "Tháng 7 / 2024 - Tháng 5 / 2025",
-            en: "Jul 2024 - May 2025"
+            vi: "Tháng 7 / 2024 - Tháng 6 / 2025",
+            en: "Jul 2024 - June 2025"
         }
     },
     {
-        id: 2,
+        id: 3,
         title: {
             vi: "Dự án tự làm",
             en: "Self Employed"
@@ -43,7 +61,7 @@ export const EXPERIENCES = [
         }
     },
     {
-        id: 3,
+        id: 4,
         title: {
             vi: "Lập Trình Viên",
             en: "Fullstack Developer"
@@ -54,8 +72,8 @@ export const EXPERIENCES = [
             en: "FPT University"
         },
         duration: {
-            vi: "Tháng 10 / 2021 - Hiện tại",
-            en: "Oct 2022 - Present"
+            vi: "2021 - 2025",
+            en: "2021 - 2025"
         }
     },
 ]
@@ -75,10 +93,18 @@ export const PROJECTS = [
         title: "Profolio",
         description: "Profolio is the premier platform for creators and professionals to showcase their work, connect with clients, and transform their skills into income.",
         githubLink: "#",
-        demoLink: "https://profolio.1ai.one/en"
+        demoLink: "https://profolio.s9s.ai"
     },
     {
         id: 3,
+        imgPath: timenest,
+        title: "TimeNest",
+        description: "TimeNest is a comprehensive time and work management solution, designed to help you optimize your schedule, increase productivity, and achieve work-life balance.",
+        githubLink: "https://github.com/phanhuynh2606/MineNote",
+        demoLink: "https://timenest.id.vn/"
+    },
+    {
+        id: 4,
         imgPath: teelab,
         title: "Teelab",
         description: "Not only is fashion, Teelab is also a laboratory of youth - a place to research and produce an energy source called Youth. We always want to create a happy, dynamic and youthful experience.",
@@ -86,7 +112,15 @@ export const PROJECTS = [
         demoLink: "#"
     },
     {
-        id: 4,
+        id: 5,
+        imgPath: clinskin,
+        title: "ClinSkin",
+        description: "Website specializing in providing the best, reputable, and safe cosmetics and skin care services.",
+        githubLink: "https://github.com/DuongTuanDu/FE_ClinSkin",
+        demoLink: "#"
+    },
+    {
+        id: 6,
         imgPath: edunextSource,
         title: "Edunext Course",
         description: "Student management website, providing courses and subjects for students, detailed management of each study slot.",
@@ -94,7 +128,7 @@ export const PROJECTS = [
         demoLink: "#"
     },
     {
-        id: 5,
+        id: 7,
         imgPath: bookSeller,
         title: "Book Store",
         description: "Website selling books with a variety of types, bringing users good and useful books for life.",
