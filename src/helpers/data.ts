@@ -48,16 +48,16 @@ export const EXPERIENCES = [
     {
         id: 3,
         title: {
-            vi: "Dự án tự làm",
-            en: "Self Employed"
+            vi: "Lập Trình Viên Front-end",
+            en: "Front-end Developer"
         },
         company: {
-            vi: "Học kiến thức mới mỗi ngày",
-            en: "Code and build something in everyday."
+            vi: "GAP GLOBAL",
+            en: "GAP GLOBAL"
         },
         duration: {
-            vi: "Tháng 1 / 2022 - Hiện tại",
-            en: "Jan 2022 - Present"
+            vi: "Tháng 9 / 2025 - Hiện tại",
+            en: "Sept 2025 - Present"
         }
     },
     {
@@ -97,6 +97,22 @@ export const PROJECTS = [
     },
     {
         id: 3,
+        imgPath: "https://cdn.shopify.com/app-store/listing_images/c472b916d5442d8f4d9cd8ca46b8b0c6/icon/CLvo7IWXy5EDEAE=.png",
+        title: "Feeds app shopify",
+        description: "Display Instagram & TikTok feed and turn posts, reels & UGC into shoppable galleries that boost sale.",
+        githubLink: "#",
+        demoLink: "https://apps.shopify.com/techgo-reels-instagram-feed"
+    },
+    {
+        id: 4,
+        imgPath: "https://res.cloudinary.com/dah1iwbdz/image/upload/v1771925140/Screenshot_2026-02-24_162409_kbhhu5.png",
+        title: "Payroll",
+        description: "Payroll management system for businesses to efficiently manage employee salaries and benefits.",
+        githubLink: "#",
+        demoLink: "https://payroll.gapsoftware.asia/"
+    },
+    {
+        id: 5,
         imgPath: timenest,
         title: "TimeNest",
         description: "TimeNest is a comprehensive time and work management solution, designed to help you optimize your schedule, increase productivity, and achieve work-life balance.",
@@ -104,7 +120,7 @@ export const PROJECTS = [
         demoLink: "https://timenest.id.vn/"
     },
     {
-        id: 4,
+        id: 6,
         imgPath: teelab,
         title: "Teelab",
         description: "Not only is fashion, Teelab is also a laboratory of youth - a place to research and produce an energy source called Youth. We always want to create a happy, dynamic and youthful experience.",
@@ -112,7 +128,7 @@ export const PROJECTS = [
         demoLink: "#"
     },
     {
-        id: 5,
+        id: 7,
         imgPath: clinskin,
         title: "ClinSkin",
         description: "Website specializing in providing the best, reputable, and safe cosmetics and skin care services.",
@@ -120,7 +136,7 @@ export const PROJECTS = [
         demoLink: "#"
     },
     {
-        id: 6,
+        id: 8,
         imgPath: edunextSource,
         title: "Edunext Course",
         description: "Student management website, providing courses and subjects for students, detailed management of each study slot.",
@@ -128,7 +144,7 @@ export const PROJECTS = [
         demoLink: "#"
     },
     {
-        id: 7,
+        id: 9,
         imgPath: bookSeller,
         title: "Book Store",
         description: "Website selling books with a variety of types, bringing users good and useful books for life.",

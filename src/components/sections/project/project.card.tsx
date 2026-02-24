@@ -32,7 +32,7 @@ function ProjectCard(props: IProps) {
                             </Button>
                         }
 
-                        {(props.title === "Topclick" || props.title === "Profolio" || props.title === "TimeNest") &&
+                        {(props.title === "Topclick" || props.title === "Profolio" || props.title === "TimeNest" || props.title === "Feeds app shopify" || props.title === "Payroll") &&
                             <Button
                                 variant="primary"
                                 href={props.demoLink}
