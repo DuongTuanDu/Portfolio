@@ -109,7 +109,7 @@ export const PROJECTS = [
         title: "Payroll",
         description: "Payroll management system for businesses to efficiently manage employee salaries and benefits.",
         githubLink: "#",
-        demoLink: "https://payroll.gapsoftware.asia/"
+        demoLink: "https://suite.gapsoftware.asia/"
     },
     {
         id: 5,
